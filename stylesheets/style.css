@@ -12,13 +12,17 @@ body {
 /*HEADER*/
 
 .header {
+  background: #2dc033;
+  display: flex;
+  justify-content: center;
+}
+.header-container { 
+  width: 1163px;
   padding: 26px 73px 26px 64px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  background: #2dc033;
   color: #fff;
 }
 .main-title {
@@ -69,7 +73,9 @@ body {
 
 /*MAIN*/
 .main {
-  padding: 51px 59px 87px 64px;
+  padding: 51px 59px 87px 64px;  
+  display: flex;
+  justify-content: center;
 }
 
 /*shares*/
@@ -396,7 +402,7 @@ body {
 
 /* AVERAGE CONTAINER */
 .average-container {
-  margin-top: 30px;
+  margin-top: 33px;
   width: 270px;
 }
 .average-header {
